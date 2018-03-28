@@ -1,0 +1,341 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>vue element-ui tree 树形控件改iview · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../wen-zhang.html" />
+    
+    
+    <link rel="prev" href="../chuang-zuo.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    知识点
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="../yang-shi.html">
+            
+                <a href="../yang-shi.html">
+            
+                    
+                    样式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../chuang-zuo.html">
+            
+                <a href="../chuang-zuo.html">
+            
+                    
+                    创作
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1" data-path="vue-element-ui-tree-shu-xing-kong-jian-gai-iview.html">
+            
+                <a href="vue-element-ui-tree-shu-xing-kong-jian-gai-iview.html">
+            
+                    
+                    vue element-ui tree 树形控件改iview
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../wen-zhang.html">
+            
+                <a href="../wen-zhang.html">
+            
+                    
+                    文章
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../wen-zhang/webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.html">
+            
+                <a href="../wen-zhang/webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.html">
+            
+                    
+                    webpack4.0初体验、各版本及parcel性能对比
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >vue element-ui tree 树形控件改iview</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>&#x628A;element-ui&#x7EC4;&#x4EF6;&#x7684;tree&#x6811;&#x5F62;&#x63A7;&#x4EF6;&#x8FC1;&#x79FB;&#x4E86;&#x4E00;&#x4E0B;&#xFF0C;&#x9002;&#x914D;&#x4E86;iview&#x7EC4;&#x4EF6;</p>
+<p>element-ui &#x7684;tree&#x6811;&#x5F62;&#x63A7;&#x4EF6; &#x4FEE;&#x6539;&#x4E3A;&#x9002;&#x914D;iview&#x7EC4;&#x4EF6;</p>
+<h2 id="&#x4F7F;&#x7528;&#x65B9;&#x6CD5;">&#x4F7F;&#x7528;&#x65B9;&#x6CD5;</h2>
+<p>npm i chu-tree-iview</p>
+<pre><code>import chuView from 
+&apos;chu-tree-iview&apos;
+
+
+Vue.use(chuView)
+
+
+&lt;
+chu-tree
+&gt;
+&lt;
+/chu-tree
+&gt;
+</code></pre><p>&#x4F7F;&#x7528;&#x6587;&#x6863;&#x8DDF;element-ui&#x4E00;&#x6A21;&#x4E00;&#x6837; <a href="http://element-cn.eleme.io/\#/zh-CN/component/tree" target="_blank">http://element-cn.eleme.io/\#/zh-CN/component/tree</a></p>
+<h2 id="&#x5FC5;&#x987B;&#x5B89;&#x88C5;iview">&#x5FC5;&#x987B;&#x5B89;&#x88C5;iview</h2>
+<p>&#x6837;&#x5F0F;&#x98CE;&#x683C;&#x5168;&#x90E8;&#x66FF;&#x6362;&#x6210;&#x4E86;ivew &#x529F;&#x80FD;&#x5168;&#x90E8;&#x6309;&#x7167;element-ui&#x539F;&#x5148;&#x4E00;&#x6837;</p>
+<p>&#x6709;&#x95EE;&#x9898;&#x8054;&#x7CFB;&#x4F5C;&#x8005;</p>
+<p>&#x4F5C;&#x8005;&#xFF1A;CHU295</p>
+<p>&#x94FE;&#x63A5;&#xFF1A;<a href="https://juejin.im/post/5aba11b2f265da238c3ab444" target="_blank">https://juejin.im/post/5aba11b2f265da238c3ab444</a></p>
+<p>&#x6765;&#x6E90;&#xFF1A;&#x6398;&#x91D1;</p>
+<p>&#x8457;&#x4F5C;&#x6743;&#x5F52;&#x4F5C;&#x8005;&#x6240;&#x6709;&#x3002;&#x5546;&#x4E1A;&#x8F6C;&#x8F7D;&#x8BF7;&#x8054;&#x7CFB;&#x4F5C;&#x8005;&#x83B7;&#x5F97;&#x6388;&#x6743;&#xFF0C;&#x975E;&#x5546;&#x4E1A;&#x8F6C;&#x8F7D;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../chuang-zuo.html" class="navigation navigation-prev " aria-label="Previous page: 创作">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../wen-zhang.html" class="navigation navigation-next " aria-label="Next page: 文章">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"vue element-ui tree 树形控件改iview","level":"1.2.1","depth":2,"next":{"title":"文章","level":"1.3","depth":1,"path":"wen-zhang.md","ref":"wen-zhang.md","articles":[{"title":"webpack4.0初体验、各版本及parcel性能对比","level":"1.3.1","depth":2,"path":"wen-zhang/webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.md","ref":"wen-zhang/webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.md","articles":[]}]},"previous":{"title":"创作","level":"1.2","depth":1,"path":"chuang-zuo.md","ref":"chuang-zuo.md","articles":[{"title":"vue element-ui tree 树形控件改iview","level":"1.2.1","depth":2,"path":"chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md","ref":"chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md","mtime":"2018-03-28T02:49:27.259Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-03-28T03:34:11.191Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
