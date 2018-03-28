@@ -2,6 +2,8 @@
 
 * [知识点](README.md)
   * [样式](yang-shi.md)
+    * [布局](yang-shi/bu-ju.md)
+  * [移动端](yi-dong-duan.md)
 * [创作](chuang-zuo.md)
   * [vue element-ui tree 树形控件改iview](chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md)
 * [文章](wen-zhang.md)
