@@ -10,6 +10,7 @@
   * [JavaScript](javascript.md)
     * [事件模型](javascript/shi-jian-mo-xing.md)
     * [自执行函数](javascript/zi-zhi-xing-han-shu.md)
+    * [函数去抖、节流](javascript/han-shu-qu-dou-3001-jie-liu.md)
 * [创作](chuang-zuo.md)
   * [vue element-ui tree 树形控件改iview](chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md)
 * [文章](wen-zhang.md)
