@@ -18,7 +18,7 @@ concat（）
 
 JSON.parse\(JSON.stringify\(obj\)\)注意这种方法的缺点
 
-检查数组类型，唯一标准方法Object.prototype.toString.apply\( \)
+
 
 参考：
 

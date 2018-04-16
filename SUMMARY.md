@@ -5,6 +5,7 @@
   * [移动端](yi-dong-duan.md)
   * [数据类型](shu-ju-lei-xing.md)
     * [数组](shu-ju-lei-xing/shu-zu.md)
+      * [检查数组类型](shu-ju-lei-xing/shu-zu/jian-cha-shu-zu-lei-xing.md)
     * [数组去重](shu-ju-lei-xing/shu-zu-qu-zhong.md)
     * [原型链](shu-ju-lei-xing/yuan-xing-lian.md)
   * [内存泄漏](nei-cun-xie-lou.md)
