@@ -55,4 +55,11 @@
 * [文章](wen-zhang.md)
   * [webpack4.0初体验、各版本及parcel性能对比](wen-zhang/webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.md)
   * [canvas图片合成](wen-zhang/canvastu-pian-he-cheng.md)
+* 收藏
+  * [Twitter，facebook，Pinterest等国外平台授权登录](twitterfacebookpinterestdeng-guo-wai-ping-tai-shou-quan-deng-lu.md)
+  * [vscode支持es2016 es2017语法](vscodezhi-chi-es2016-es2017-yu-fa.md)
+  * [windows配置Nginx支持https](windowspei-zhi-nginx-zhi-chi-https.md)
+  * [zeroclipboard网页滚动失效解决方法](zeroclipboardwang-ye-gun-dong-shi-xiao-jie-jue-fang-fa.md)
+  * [授权弹窗自动关闭父页面刷新思路](shou-quan-dan-chuang-zi-dong-guan-bi-fu-ye-mian-shua-xin-si-lu.md)
+  * [网页通过php链接数据库查询数据](wang-ye-tong-guo-php-lian-jie-shu-ju-ku-cha-xun-shu-ju.md)
 

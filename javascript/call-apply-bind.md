@@ -6,8 +6,6 @@ call和apply都是对函数的直接调用
 
 bind方法返回的仍然是一个函数，因此后面还需要\(\)来进行调用才可以
 
-
-
 **语法：**  
 function.call\(thisObj \[, arg1\[, arg2\[, \[, ...argN\]\]\]\]\);  
 function.apply\(thisObj \[, argArray\] \)；
