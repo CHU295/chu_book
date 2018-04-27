@@ -21,6 +21,7 @@
     * [各种循环、遍历、Map、foreach，reduce、filter...](javascript/ge-zhong-xun-huan-3001-bian-li-3001-map-foreach-reduce-filter.md)
     * [闭包](javascript/bi-bao.md)
     * [变量提升](javascript/bian-liang-ti-sheng.md)
+    * [Call 、Apply、 bind](javascript/call-apply-bind.md)
   * [ES6+](es6+.md)
     * [剩余参数](es6+/sheng-yu-can-shu.md)
     * [默认参数](es6+/mo-ren-can-shu.md)
