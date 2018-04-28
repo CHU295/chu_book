@@ -1,8 +1,14 @@
-
-
 不多BB
 
 看代码
+
+
+
+更新~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+记得加encodeURI转义，本人项目中阿里云图片有中文名称，导致合图失败
+
+
 
 ```
 let data = ['code_1.png','code_2.png']
@@ -27,7 +33,7 @@ function drawing(n){
     that.setState({
       img: c.toDataURL("image/jpeg",0.8)
     })
-    
+
     document.getElementById('chu').appendChild(c)
   }
 }
