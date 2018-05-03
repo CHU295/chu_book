@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>文章 · GitBook</title>
+        <title>event对象中 target和currentTarget 属性的区别 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,8 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="wen-zhang/webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.html" />
+    <link rel="next" href="tu-pian-lei-xing.html" />
     
-    
-    <link rel="prev" href="chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.html" />
     
 
     </head>
@@ -679,7 +677,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.1.12.1" data-path="eventdui-xiang-zhong-target-he-currenttarget-shu-xing-de-qu-bie.html">
+        <li class="chapter active" data-level="1.1.12.1" data-path="eventdui-xiang-zhong-target-he-currenttarget-shu-xing-de-qu-bie.html">
             
                 <a href="eventdui-xiang-zhong-target-he-currenttarget-shu-xing-de-qu-bie.html">
             
@@ -792,7 +790,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="wen-zhang.html">
+        <li class="chapter " data-level="1.3" data-path="wen-zhang.html">
             
                 <a href="wen-zhang.html">
             
@@ -854,7 +852,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >文章</a>
+        <a href="." >event对象中 target和currentTarget 属性的区别</a>
     </h1>
 </div>
 
@@ -869,8 +867,12 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p>&#x4E71;&#x4E03;&#x516B;&#x7CDF;&#x7684;&#x4F53;&#x9A8C;</p>
-
+                                <pre><code>e.target &#x6307;&#x5411;&#x89E6;&#x53D1;&#x4E8B;&#x4EF6;&#x76D1;&#x542C;&#x7684;&#x5BF9;&#x8C61;&#x3002;
+e.currentTarget &#x6307;&#x5411;&#x6DFB;&#x52A0;&#x76D1;&#x542C;&#x4E8B;&#x4EF6;&#x7684;&#x5BF9;&#x8C61;&#x3002;
+$(&apos;.main&apos;).on(&apos;click&apos;,&apos;span&apos;,function () {
+      // target = span     currentTarget = main&apos;
+    })
+</code></pre>
                                 
                                 </section>
                             
@@ -897,12 +899,8 @@
 
             
                 
-                <a href="chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.html" class="navigation navigation-prev " aria-label="Previous page: vue element-ui tree 树形控件改iview">
-                    <i class="fa fa-angle-left"></i>
-                </a>
                 
-                
-                <a href="wen-zhang/webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.html" class="navigation navigation-next " aria-label="Next page: webpack4.0初体验、各版本及parcel性能对比">
+                <a href="tu-pian-lei-xing.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 图片类型">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -913,7 +911,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"文章","level":"1.3","depth":1,"next":{"title":"webpack4.0初体验、各版本及parcel性能对比","level":"1.3.1","depth":2,"path":"wen-zhang/webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.md","ref":"wen-zhang/webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.md","articles":[]},"previous":{"title":"vue element-ui tree 树形控件改iview","level":"1.2.1","depth":2,"path":"chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md","ref":"chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"wen-zhang.md","mtime":"2018-03-28T03:52:15.717Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-03-28T08:46:13.141Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"event对象中 target和currentTarget 属性的区别","level":"1.1.12.1","depth":3,"next":{"title":"图片类型","level":"1.1.12.2","depth":3,"path":"tu-pian-lei-xing.md","ref":"tu-pian-lei-xing.md","articles":[]},"previous":{"title":"杂谈","level":"1.1.12","depth":2,"ref":"","articles":[{"title":"event对象中 target和currentTarget 属性的区别","level":"1.1.12.1","depth":3,"path":"eventdui-xiang-zhong-target-he-currenttarget-shu-xing-de-qu-bie.md","ref":"eventdui-xiang-zhong-target-he-currenttarget-shu-xing-de-qu-bie.md","articles":[]},{"title":"图片类型","level":"1.1.12.2","depth":3,"path":"tu-pian-lei-xing.md","ref":"tu-pian-lei-xing.md","articles":[]},{"title":"eventloop","level":"1.1.12.3","depth":3,"path":"eventloop.md","ref":"eventloop.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"eventdui-xiang-zhong-target-he-currenttarget-shu-xing-de-qu-bie.md","mtime":"2018-03-28T08:46:01.677Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-03-28T08:46:13.141Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

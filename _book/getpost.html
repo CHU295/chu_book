@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>文章 · GitBook</title>
+        <title>get/post · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="wen-zhang/webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.html" />
+    <link rel="next" href="xmlhttprequest-abort.html" />
     
     
-    <link rel="prev" href="chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.html" />
+    <link rel="prev" href="kua-yu.html" />
     
 
     </head>
@@ -563,7 +563,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.10.2" data-path="getpost.html">
+        <li class="chapter active" data-level="1.1.10.2" data-path="getpost.html">
             
                 <a href="getpost.html">
             
@@ -792,7 +792,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="wen-zhang.html">
+        <li class="chapter " data-level="1.3" data-path="wen-zhang.html">
             
                 <a href="wen-zhang.html">
             
@@ -854,7 +854,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >文章</a>
+        <a href="." >get/post</a>
     </h1>
 </div>
 
@@ -869,7 +869,17 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p>&#x4E71;&#x4E03;&#x516B;&#x7CDF;&#x7684;&#x4F53;&#x9A8C;</p>
+                                <p>&#x6700;&#x76F4;&#x89C2;&#x7684;&#x5C31;&#x662F;&#x8BED;&#x4E49;&#x4E0A;&#x7684;&#x533A;&#x522B;&#xFF0C;get&#x7528;&#x4E8E;&#x83B7;&#x53D6;&#x6570;&#x636E;&#xFF0C;post&#x7528;&#x4E8E;&#x63D0;&#x4EA4;&#x6570;&#x636E;</p>
+<p>get&#x53C2;&#x6570;&#x6709;&#x957F;&#x5EA6;&#x9650;&#x5236;&#xFF08;&#x53D7;&#x9650;&#x4E8E;url&#x957F;&#x5EA6;&#xFF0C;&#x5177;&#x4F53;&#x7684;&#x6570;&#x503C;&#x53D6;&#x51B3;&#x4E8E;&#x6D4F;&#x89C8;&#x5668;&#x548C;&#x670D;&#x52A1;&#x5668;&#x7684;&#x9650;&#x5236;&#xFF09;&#xFF0C;&#x800C;post&#x65E0;&#x9650;&#x5236;</p>
+<p>1.GET&#x662F;&#x901A;&#x8FC7;URL&#x63D0;&#x4EA4;&#x6570;&#x636E;&#xFF0C;&#x56E0;&#x6B64;GET&#x53EF;&#x63D0;&#x4EA4;&#x7684;&#x6570;&#x636E;&#x91CF;&#x5C31;&#x8DDF;URL&#x6240;&#x80FD;&#x8FBE;&#x5230;&#x7684;&#x6700;&#x5927;&#x957F;&#x5EA6;&#x6709;&#x76F4;&#x63A5;&#x5173;&#x7CFB;&#x3002;</p>
+<p>2.&#x5B9E;&#x9645;&#x4E0A;HTTP&#x534F;&#x8BAE;&#x5BF9;URL&#x957F;&#x5EA6;&#x662F;&#x6CA1;&#x6709;&#x9650;&#x5236;&#x7684;&#xFF1B;&#x9650;&#x5236;URL&#x957F;&#x5EA6;&#x5927;&#x591A;&#x6570;&#x662F;&#x6D4F;&#x89C8;&#x5668;&#x6216;&#x8005;&#x670D;&#x52A1;&#x5668;&#x7684;&#x914D;&#x7F6E;&#x53C2;&#x6570;</p>
+<p>&#x540C;&#x6837;&#x7684;&#xFF0C;HTTP&#x534F;&#x8BAE;&#x6CA1;&#x6709;&#x5BF9;POST&#x8FDB;&#x884C;&#x4EFB;&#x4F55;&#x9650;&#x5236;&#xFF0C;&#x4E00;&#x822C;&#x662F;&#x53D7;&#x670D;&#x52A1;&#x5668;&#x914D;&#x7F6E;&#x9650;&#x5236;&#x6216;&#x8005;&#x5185;&#x5B58;&#x5927;&#x5C0F;&#x3002;</p>
+<p>1.GET&#x662F;&#x901A;&#x8FC7;URL&#x65B9;&#x5F0F;&#x8BF7;&#x6C42;&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x770B;&#x5230;&#xFF0C;&#x660E;&#x6587;&#x4F20;&#x8F93;&#x3002;</p>
+<p>2.POST&#x662F;&#x901A;&#x8FC7;&#x8BF7;&#x6C42;header&#x8BF7;&#x6C42;&#xFF0C;&#x53EF;&#x4EE5;&#x5F00;&#x53D1;&#x8005;&#x5DE5;&#x5177;&#x6216;&#x8005;&#x6293;&#x5305;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#xFF0C;&#x540C;&#x6837;&#x4E5F;&#x662F;&#x660E;&#x6587;&#x7684;</p>
+<p>GET&#x548C;POST&#x5BF9;&#x670D;&#x52A1;&#x5668;&#x7684;&#x72B6;&#x6001;</p>
+<p>&#x6839;&#x636E;http&#x7684;&#x8BBE;&#x8BA1;&#xFF0C;&#x5927;&#x5BB6;&#x5728;&#x770B;&#x5230;get&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x90FD;&#x671F;&#x671B;&#x8FD9;&#x4E2A;&#x8BF7;&#x6C42;&#x5BF9;&#x670D;&#x52A1;&#x5668;&#x6CA1;&#x6709;&#x4FEE;&#x6539;&#xFF0C;&#x770B;&#x5230;post&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x90FD;&#x8BA4;&#x4E3A;&#x8FD9;&#x5BF9;&#x670D;&#x52A1;&#x5668;&#x4EA7;&#x751F;&#x4E86;&#x4FEE;&#x6539;</p>
+<p>GET&#x5E42;&#x7B49;&#xFF0C;POST&#x4E0D;&#x5E42;&#x7B49;</p>
+<p>&#x5E42;&#x7B49;&#x662F;&#x6307;&#x540C;&#x4E00;&#x4E2A;&#x8BF7;&#x6C42;&#x65B9;&#x6CD5;&#x6267;&#x884C;&#x591A;&#x6B21;&#x548C;&#x4EC5;&#x6267;&#x884C;&#x4E00;&#x6B21;&#x7684;&#x6548;&#x679C;&#x5B8C;&#x5168;&#x76F8;&#x540C;&#x3002;</p>
 
                                 
                                 </section>
@@ -897,12 +907,12 @@
 
             
                 
-                <a href="chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.html" class="navigation navigation-prev " aria-label="Previous page: vue element-ui tree 树形控件改iview">
+                <a href="kua-yu.html" class="navigation navigation-prev " aria-label="Previous page: 跨域">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="wen-zhang/webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.html" class="navigation navigation-next " aria-label="Next page: webpack4.0初体验、各版本及parcel性能对比">
+                <a href="xmlhttprequest-abort.html" class="navigation navigation-next " aria-label="Next page: xmlHttpRequest abort">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -913,7 +923,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"文章","level":"1.3","depth":1,"next":{"title":"webpack4.0初体验、各版本及parcel性能对比","level":"1.3.1","depth":2,"path":"wen-zhang/webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.md","ref":"wen-zhang/webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.md","articles":[]},"previous":{"title":"vue element-ui tree 树形控件改iview","level":"1.2.1","depth":2,"path":"chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md","ref":"chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"wen-zhang.md","mtime":"2018-03-28T03:52:15.717Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-03-28T08:46:13.141Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"get/post","level":"1.1.10.2","depth":3,"next":{"title":"xmlHttpRequest abort","level":"1.1.10.3","depth":3,"path":"xmlhttprequest-abort.md","ref":"xmlhttprequest-abort.md","articles":[]},"previous":{"title":"跨域","level":"1.1.10.1","depth":3,"path":"kua-yu.md","ref":"kua-yu.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"getpost.md","mtime":"2018-03-28T08:46:01.679Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-03-28T08:46:13.141Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

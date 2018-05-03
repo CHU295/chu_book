@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>自执行函数 · GitBook</title>
+        <title>闭包 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="han-shu-qu-dou-3001-jie-liu.html" />
+    <link rel="next" href="bian-liang-ti-sheng.html" />
     
     
-    <link rel="prev" href="shi-jian-mo-xing.html" />
+    <link rel="prev" href="ge-zhong-xun-huan-3001-bian-li-3001-map-foreach-reduce-filter.html" />
     
 
     </head>
@@ -253,7 +253,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.1.7.2" data-path="zi-zhi-xing-han-shu.html">
+        <li class="chapter " data-level="1.1.7.2" data-path="zi-zhi-xing-han-shu.html">
             
                 <a href="zi-zhi-xing-han-shu.html">
             
@@ -318,7 +318,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.7.7" data-path="bi-bao.html">
+        <li class="chapter active" data-level="1.1.7.7" data-path="bi-bao.html">
             
                 <a href="bi-bao.html">
             
@@ -854,7 +854,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >自执行函数</a>
+        <a href=".." >闭包</a>
     </h1>
 </div>
 
@@ -869,9 +869,12 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p>(function() {</p>
-<p>// ...</p>
-<p>})()</p>
+                                <h2 id="&#x95ED;&#x5305;">&#x95ED;&#x5305;</h2>
+<p>&#x5728;JS&#x4E2D;&#xFF0C;&#x53D8;&#x91CF;&#x7684;&#x4F5C;&#x7528;&#x57DF;&#x5C5E;&#x4E8E;&#x51FD;&#x6570;&#x4F5C;&#x7528;&#x57DF;&#xFF0C;&#x5728;&#x51FD;&#x6570;&#x6267;&#x884C;&#x540E;&#x4F5C;&#x7528;&#x57DF;&#x5C31;&#x4F1A;&#x88AB;&#x6E05;&#x7406;&#x3001;&#x5185;&#x5B58;&#x4E5F;&#x968F;&#x4E4B;&#x56DE;&#x6536;&#xFF0C;&#x4F46;&#x662F;&#x7531;&#x4E8E;&#x95ED;&#x5305;&#x662F;&#x5EFA;&#x7ACB;&#x5728;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x7684;&#x5B50;&#x51FD;&#x6570;&#xFF0C;&#x7531;&#x4E8E;&#x5176;&#x53EF;&#x8BBF;&#x95EE;&#x4E0A;&#x7EA7;&#x4F5C;&#x7528;&#x57DF;&#x7684;&#x539F;&#x56E0;&#xFF0C;&#x5373;&#x4F7F;&#x4E0A;&#x7EA7;&#x51FD;&#x6570;&#x6267;&#x884C;&#x5B8C;&#xFF0C;&#x4F5C;&#x7528;&#x57DF;&#x4E5F;&#x4E0D;&#x4F1A;&#x968F;&#x4E4B;&#x9500;&#x6BC1;&#xFF0C;&#x8FD9;&#x65F6;&#x7684;&#x5B50;&#x51FD;&#x6570;&#x2014;&#x2014;&#x4E5F;&#x5C31;&#x662F;&#x95ED;&#x5305;&#xFF0C;&#x4FBF;&#x62E5;&#x6709;&#x4E86;&#x8BBF;&#x95EE;&#x4E0A;&#x7EA7;&#x4F5C;&#x7528;&#x57DF;&#x4E2D;&#x7684;&#x53D8;&#x91CF;&#x7684;&#x6743;&#x9650;&#xFF0C;&#x5373;&#x4F7F;&#x4E0A;&#x7EA7;&#x51FD;&#x6570;&#x6267;&#x884C;&#x5B8C;&#x540E;&#x4F5C;&#x7528;&#x57DF;&#x5185;&#x7684;&#x503C;&#x4E5F;&#x4E0D;&#x4F1A;&#x88AB;&#x9500;&#x6BC1;&#x3002;</p>
+<h2 id="&#x95ED;&#x5305;&#x89E3;&#x51B3;&#x4E86;&#x4EC0;&#x4E48;&#xFF1F;">&#x95ED;&#x5305;&#x89E3;&#x51B3;&#x4E86;&#x4EC0;&#x4E48;&#xFF1F;</h2>
+<p>&#x7531;&#x4E8E;&#x95ED;&#x5305;&#x53EF;&#x4EE5;&#x7F13;&#x5B58;&#x4E0A;&#x7EA7;&#x4F5C;&#x7528;&#x57DF;&#xFF0C;&#x90A3;&#x4E48;&#x5C31;&#x4F7F;&#x5F97;&#x51FD;&#x6570;&#x5916;&#x90E8;&#x6253;&#x7834;&#x4E86;&#x201C;&#x51FD;&#x6570;&#x4F5C;&#x7528;&#x57DF;&#x201D;&#x7684;&#x675F;&#x7F1A;&#xFF0C;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x7684;&#x53D8;&#x91CF;&#x3002;&#x4EE5;&#x5E73;&#x65F6;&#x4F7F;&#x7528;&#x7684;Ajax&#x6210;&#x529F;&#x56DE;&#x8C03;&#x4E3A;&#x4F8B;&#xFF0C;&#x8FD9;&#x91CC;&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x4E2A;&#x95ED;&#x5305;&#xFF0C;&#x7531;&#x4E8E;&#x4E0A;&#x8FF0;&#x7684;&#x7279;&#x6027;&#xFF0C;&#x56DE;&#x8C03;&#x5C31;&#x62E5;&#x6709;&#x4E86;&#x6574;&#x4E2A;&#x4E0A;&#x7EA7;&#x4F5C;&#x7528;&#x57DF;&#x7684;&#x8BBF;&#x95EE;&#x548C;&#x64CD;&#x4F5C;&#x80FD;&#x529B;&#xFF0C;&#x63D0;&#x9AD8;&#x4E86;&#x6781;&#x5927;&#x7684;&#x4FBF;&#x5229;&#x3002;&#x5F00;&#x53D1;&#x8005;&#x4E0D;&#x7528;&#x53BB;&#x5199;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x6765;&#x64CD;&#x4F5C;&#x4E0A;&#x7EA7;&#x51FD;&#x6570;&#x4F5C;&#x7528;&#x57DF;&#x5185;&#x90E8;&#x7684;&#x53D8;&#x91CF;&#x4E86;&#x3002;</p>
+<h2 id="&#x95ED;&#x5305;&#x7684;&#x5783;&#x573E;&#x56DE;&#x6536;">&#x95ED;&#x5305;&#x7684;&#x5783;&#x573E;&#x56DE;&#x6536;</h2>
+<p>&#x5F15;&#x7528;&#x8BA1;&#x6570;&#x6CD5;&#xFF0C;&#x6807;&#x8BB0;&#x6CD5;&#xFF08;&#x6027;&#x80FD;&#x95EE;&#x9898;&#xFF09;</p>
 
                                 
                                 </section>
@@ -899,12 +902,12 @@
 
             
                 
-                <a href="shi-jian-mo-xing.html" class="navigation navigation-prev " aria-label="Previous page: 事件模型">
+                <a href="ge-zhong-xun-huan-3001-bian-li-3001-map-foreach-reduce-filter.html" class="navigation navigation-prev " aria-label="Previous page: 各种循环、遍历、Map、foreach，reduce、filter...">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="han-shu-qu-dou-3001-jie-liu.html" class="navigation navigation-next " aria-label="Next page: 函数去抖、节流">
+                <a href="bian-liang-ti-sheng.html" class="navigation navigation-next " aria-label="Next page: 变量提升">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -915,7 +918,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"自执行函数","level":"1.1.7.2","depth":3,"next":{"title":"函数去抖、节流","level":"1.1.7.3","depth":3,"path":"javascript/han-shu-qu-dou-3001-jie-liu.md","ref":"javascript/han-shu-qu-dou-3001-jie-liu.md","articles":[]},"previous":{"title":"事件模型","level":"1.1.7.1","depth":3,"path":"javascript/shi-jian-mo-xing.md","ref":"javascript/shi-jian-mo-xing.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"javascript/zi-zhi-xing-han-shu.md","mtime":"2018-03-28T03:52:15.714Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-03-28T08:46:13.141Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"闭包","level":"1.1.7.7","depth":3,"next":{"title":"变量提升","level":"1.1.7.8","depth":3,"path":"javascript/bian-liang-ti-sheng.md","ref":"javascript/bian-liang-ti-sheng.md","articles":[]},"previous":{"title":"各种循环、遍历、Map、foreach，reduce、filter...","level":"1.1.7.6","depth":3,"path":"javascript/ge-zhong-xun-huan-3001-bian-li-3001-map-foreach-reduce-filter.md","ref":"javascript/ge-zhong-xun-huan-3001-bian-li-3001-map-foreach-reduce-filter.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"javascript/bi-bao.md","mtime":"2018-03-28T08:46:01.680Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-03-28T08:46:13.141Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
