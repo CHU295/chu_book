@@ -65,4 +65,5 @@
   * [网页通过php链接数据库查询数据](wang-ye-tong-guo-php-lian-jie-shu-ju-ku-cha-xun-shu-ju.md)
 * [创作](chuang-zuo.md)
   * [vue element-ui tree 树形控件改iview](chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md)
+  * [vue.js element-ui组件改iview  第二期  table表单](chuang-zuo/vuejs-element-uizu-jian-gai-iview-di-er-qi-table-biao-dan.md)
 
