@@ -69,4 +69,6 @@
 * [创作](chuang-zuo.md)
   * [vue.js element-ui组件改iview 第一期 tree树形控件](chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md)
   * [vue.js element-ui组件改iview  第二期  table表单](chuang-zuo/vuejs-element-uizu-jian-gai-iview-di-er-qi-table-biao-dan.md)
+* 杂谈&&日常踩坑记录
+  * [git文件名大小写变化检测](gitwen-jian-ming-da-xiao-xie-xiu-gai-mo-ren-bu-jian-ce.md)
 
