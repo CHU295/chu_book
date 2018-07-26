@@ -65,6 +65,7 @@
   * [网页通过php链接数据库查询数据](wang-ye-tong-guo-php-lian-jie-shu-ju-ku-cha-xun-shu-ju.md)
   * [vue.js vue-router history模式路由，域名二级目录子目录nginx配置](wen-zhang/vuejs-vue-router-historymo-shi-lu-you-ff0c-yu-ming-er-ji-mu-lu-zi-mu-lu-nginx-pei-zhi.md)
   * [vue.js拖拉排序插件vuedraggable，无法兼容微信QQ腾讯系浏览器解决办法](wen-zhang/vuejstuo-la-pai-xu-cha-jian-vuedraggable-ff0c-wu-fa-jian-rong-wei-xin-qq-teng-xun-xi-liu-lan-qi-jie-jue-ban-fa.md)
+  * [前端网页移动端H5签名canvas原生实现，移动端签名实践，适用于vue.js react 等任何框架](wen-zhang/qian-duan-wang-ye-yi-dong-duan-h5-qian-ming-canvas-yuan-sheng-shi-xian-ff0c-yi-dong-duan-qian-ming-shi-jian-ff0c-shi-yong-yu-vue-js-react-deng-ren-he-kuang-jia.md)
 * [创作](chuang-zuo.md)
   * [vue.js element-ui组件改iview 第一期 tree树形控件](chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md)
   * [vue.js element-ui组件改iview  第二期  table表单](chuang-zuo/vuejs-element-uizu-jian-gai-iview-di-er-qi-table-biao-dan.md)
