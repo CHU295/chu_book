@@ -45,9 +45,9 @@ detachEvent
 
 参数说明:
 
-·eventType指定事件类型\(注意加on\)
+·eventType 指定事件类型\(注意加on\)
 
-·handler是事件处理函数
+·handler 是事件处理函数
 
 ### DOM2级模型
 
@@ -59,5 +59,5 @@ detachEvent
 
 ·事件冒泡阶段\(bubbling phase\)。事件从目标元素冒泡到document,依次检查经过的节点是否绑定了事件监听函数，如果有则执行。
 
- u
+u
 
