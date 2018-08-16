@@ -74,6 +74,7 @@
   * [input placeholder中引用字体图标 如iconfont](input-placeholderzhong-yin-yong-zi-ti-tu-biao-ru-iconfont.md)
   * [前端缓存经验汇总](wu-ti.md)
   * [规范](gui-fan.md)
+  * [iframe ios 兼容 bug](iframe-ios-jian-rong-bug.md)
 * 不相干的东西
   * [12306买票选择上下铺](12306mai-piao-xuan-ze-shang-xia-pu.md)
 
