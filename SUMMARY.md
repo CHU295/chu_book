@@ -44,7 +44,7 @@
     * [域名发散与域名收敛](yu-ming-fa-san-yu-yu-ming-shou-lian.md)
   * 优化
     * [网络请求类](wang-luo-lei-xing.md)
-  * 杂谈
+  * [杂谈](za-tan.md)
     * [event对象中 target和currentTarget 属性的区别](eventdui-xiang-zhong-target-he-currenttarget-shu-xing-de-qu-bie.md)
     * [图片类型](tu-pian-lei-xing.md)
     * [eventloop](eventloop.md)
@@ -66,6 +66,7 @@
   * [vue.js vue-router history模式路由，域名二级目录子目录nginx配置](wen-zhang/vuejs-vue-router-historymo-shi-lu-you-ff0c-yu-ming-er-ji-mu-lu-zi-mu-lu-nginx-pei-zhi.md)
   * [vue.js拖拉排序插件vuedraggable，无法兼容微信QQ腾讯系浏览器解决办法](wen-zhang/vuejstuo-la-pai-xu-cha-jian-vuedraggable-ff0c-wu-fa-jian-rong-wei-xin-qq-teng-xun-xi-liu-lan-qi-jie-jue-ban-fa.md)
   * [前端网页移动端H5签名canvas原生实现，移动端签名实践，适用于vue.js react 等任何框架](wen-zhang/qian-duan-wang-ye-yi-dong-duan-h5-qian-ming-canvas-yuan-sheng-shi-xian-ff0c-yi-dong-duan-qian-ming-shi-jian-ff0c-shi-yong-yu-vue-js-react-deng-ren-he-kuang-jia.md)
+  * [移动端touch事件，点击、滑动、长按事件  及适配vue](wen-zhang/yi-dong-duan-touch-shi-jian-ff0c-dian-ji-3001-hua-dong-3001-chang-an-shi-jian-ji-shi-pei-vue.md)
 * [创作](chuang-zuo.md)
   * [vue.js element-ui组件改iview 第一期 tree树形控件](chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md)
   * [vue.js element-ui组件改iview  第二期  table表单](chuang-zuo/vuejs-element-uizu-jian-gai-iview-di-er-qi-table-biao-dan.md)

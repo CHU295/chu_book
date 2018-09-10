@@ -425,9 +425,6 @@ function clone(Obj) {
     return buf;
   } else {                         //普通变量直接赋值
     return Obj;
-
-
-
 ```
 
 
