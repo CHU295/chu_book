@@ -4,7 +4,7 @@ Import export
 
 ### COMMONJS
 
-varmath =require\('math'\)
+var math =require\('math'\)
 
 ### AMD
 
@@ -12,7 +12,7 @@ require\(\[module\],callback\);
 
 require\(\['math'\],function\(math\){
 
- alert\(math.add\(1,1\)\);
+alert\(math.add\(1,1\)\);
 
 ### CMD
 
@@ -20,11 +20,11 @@ define\(function\(require, exports, module\){
 
 vara =require\('./a'\);
 
- a.doSomething\(\);
+a.doSomething\(\);
 
 varb =require\('./b'\);
 
- b.doSomething\(\);
+b.doSomething\(\);
 
 }\)
 
