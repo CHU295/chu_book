@@ -1,6 +1,6 @@
 ## 工厂模式
 
-```
+```js
 function createPerson(name, age, job){     
  var o = new Object();     
  o.name = name;     
@@ -11,14 +11,14 @@ function createPerson(name, age, job){
  };         
  return o; 
 } 
- 
+
 var person1 = createPerson("Nicholas", 29, "Software Engineer"); 
 var person2 = createPerson("Greg", 27, "Doctor");
 ```
 
-## 构造函数模式 
+## 构造函数模式
 
-```
+```js
 function Person(name, age, job){    
  this.name = name;     
  this.age = age;     
@@ -27,7 +27,7 @@ function Person(name, age, job){
   alert(this.name);     
  };     
 } 
- 
+
 var person1 = new Person("Nicholas", 29, "Software Engineer");
 ```
 
