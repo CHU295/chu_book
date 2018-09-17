@@ -9,6 +9,7 @@
       * [检查数组类型](shu-ju-lei-xing/shu-zu/jian-cha-shu-zu-lei-xing.md)
     * [数组去重](shu-ju-lei-xing/shu-zu-qu-zhong.md)
     * [原型链](shu-ju-lei-xing/yuan-xing-lian.md)
+    * [数据属性 & 访问器属性](shu-ju-lei-xing/shu-ju-shu-xing-and-fang-wen-qi-shu-xing.md)
   * [内存泄漏](nei-cun-xie-lou.md)
   * [柯里化](ke-li-hua.md)
   * [规范cmd、amd、es6、commonjs](gui-fan-cmd-amd-es6-commonjs.md)
