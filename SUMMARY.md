@@ -47,6 +47,7 @@
     * [200,304，缓存](200304ff0c-huan-cun.md)
     * [xss/csrf](xsscsrf.md)
     * [域名发散与域名收敛](yu-ming-fa-san-yu-yu-ming-shou-lian.md)
+  * [缓存](huan-cun.md)
   * 优化
     * [网络请求类](wang-luo-lei-xing.md)
   * [杂谈](za-tan.md)
