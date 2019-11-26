@@ -73,6 +73,7 @@
   * [前端网页移动端H5签名canvas原生实现，移动端签名实践，适用于vue.js react 等任何框架](wen-zhang/qian-duan-wang-ye-yi-dong-duan-h5-qian-ming-canvas-yuan-sheng-shi-xian-ff0c-yi-dong-duan-qian-ming-shi-jian-ff0c-shi-yong-yu-vue-js-react-deng-ren-he-kuang-jia.md)
   * [移动端touch事件，点击、滑动、长按事件  及适配vue](wen-zhang/yi-dong-duan-touch-shi-jian-ff0c-dian-ji-3001-hua-dong-3001-chang-an-shi-jian-ji-shi-pei-vue.md)
   * [input输入框value控制相关](wen-zhang/inputshu-ru-kuang-value-kong-zhi-xiang-guan.md)
+  * [基于qiankun的微前端实践，提供更为简单、完整的项目](wen-zhang/ji-yu-qiankun-de-wei-qian-duan-shi-jian-ff0c-ti-gong-geng-wei-jian-dan-3001-wan-zheng-de-xiang-mu.md)
 * [创作](chuang-zuo.md)
   * [vue.js element-ui组件改iview 第一期 tree树形控件](chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md)
   * [vue.js element-ui组件改iview  第二期  table表单](chuang-zuo/vuejs-element-uizu-jian-gai-iview-di-er-qi-table-biao-dan.md)

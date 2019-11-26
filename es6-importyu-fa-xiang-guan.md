@@ -8,3 +8,5 @@ es6中 import语法导入默认置顶
 
 import默认置顶，所以第二种写法去修改path的时候其实加载已经完成了，所以不会生效
 
+链接：[https://github.com/webpack/webpack/issues/2776](https://github.com/webpack/webpack/issues/2776)
+
