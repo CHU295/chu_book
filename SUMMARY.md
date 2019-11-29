@@ -84,7 +84,9 @@
   * [规范](gui-fan.md)
   * [iframe ios 兼容 bug](iframe-ios-jian-rong-bug.md)
   * [iview定制主题无法解析less](iviewding-zhi-zhu-ti-wu-fa-jie-xi-less.md)
-  * [微信分享ios兼容性](wei-xin-fen-xiang-ios-jian-rong-xing.md)
+  * [微信分享](wei-xin-fen-xiang-ios-jian-rong-xing.md)
+    * [微信分享动态配置](wei-xin-fen-xiang-ios-jian-rong-xing/wei-xin-fen-xiang-dong-tai-pei-zhi.md)
+    * [ios兼容](wei-xin-fen-xiang-ios-jian-rong-xing/iosjian-rong.md)
   * [es6 import语法相关](es6-importyu-fa-xiang-guan.md)
 * 不相干的东西
   * [12306买票选择上下铺](12306mai-piao-xuan-ze-shang-xia-pu.md)
