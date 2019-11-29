@@ -1,0 +1,1604 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>基于qiankun的微前端实践，提供更为简单、完整的项目 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../chuang-zuo.html" />
+    
+    
+    <link rel="prev" href="inputshu-ru-kuang-value-kong-zhi-xiang-guan.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../xu-zhang.html">
+            
+                <a href="../xu-zhang.html">
+            
+                    
+                    续章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    知识点
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../yang-shi.html">
+            
+                <a href="../yang-shi.html">
+            
+                    
+                    样式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../yi-dong-duan.html">
+            
+                <a href="../yi-dong-duan.html">
+            
+                    
+                    移动端
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../yi-dong-duan/passive-event-listeners.html">
+            
+                <a href="../yi-dong-duan/passive-event-listeners.html">
+            
+                    
+                    Passive Event Listeners
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../shu-ju-lei-xing.html">
+            
+                <a href="../shu-ju-lei-xing.html">
+            
+                    
+                    数据类型
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="../shu-ju-lei-xing/shu-zu.html">
+            
+                <a href="../shu-ju-lei-xing/shu-zu.html">
+            
+                    
+                    数组
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1.1" data-path="../shu-ju-lei-xing/shu-zu/jian-cha-shu-zu-lei-xing.html">
+            
+                <a href="../shu-ju-lei-xing/shu-zu/jian-cha-shu-zu-lei-xing.html">
+            
+                    
+                    检查数组类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="../shu-ju-lei-xing/shu-zu-qu-zhong.html">
+            
+                <a href="../shu-ju-lei-xing/shu-zu-qu-zhong.html">
+            
+                    
+                    数组去重
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3" data-path="../shu-ju-lei-xing/yuan-xing-lian.html">
+            
+                <a href="../shu-ju-lei-xing/yuan-xing-lian.html">
+            
+                    
+                    原型链
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4" >
+            
+                <span>
+            
+                    
+                    对象
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.4.1" data-path="../shu-ju-lei-xing/shu-ju-shu-xing-and-fang-wen-qi-shu-xing.html">
+            
+                <a href="../shu-ju-lei-xing/shu-ju-shu-xing-and-fang-wen-qi-shu-xing.html">
+            
+                    
+                    数据属性 & 访问器属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4.2" data-path="../shu-ju-lei-xing/chuang-jian-dui-xiang.html">
+            
+                <a href="../shu-ju-lei-xing/chuang-jian-dui-xiang.html">
+            
+                    
+                    创建对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4.3" >
+            
+                <span>
+            
+                    
+                    继承
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../json.html">
+            
+                <a href="../json.html">
+            
+                    
+                    JSON
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../ke-li-hua.html">
+            
+                <a href="../ke-li-hua.html">
+            
+                    
+                    柯里化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../gui-fan-cmd-amd-es6-commonjs.html">
+            
+                <a href="../gui-fan-cmd-amd-es6-commonjs.html">
+            
+                    
+                    规范cmd、amd、es6、commonjs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../javascript.html">
+            
+                <a href="../javascript.html">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.7.1" data-path="../javascript/shu-ju-lei-xing.html">
+            
+                <a href="../javascript/shu-ju-lei-xing.html">
+            
+                    
+                    数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.2" data-path="../javascript/zi-zhi-xing-han-shu.html">
+            
+                <a href="../javascript/zi-zhi-xing-han-shu.html">
+            
+                    
+                    自执行函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.3" data-path="../javascript/shi-jian-mo-xing.html">
+            
+                <a href="../javascript/shi-jian-mo-xing.html">
+            
+                    
+                    事件模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.4" data-path="../javascript/han-shu-qu-dou-3001-jie-liu.html">
+            
+                <a href="../javascript/han-shu-qu-dou-3001-jie-liu.html">
+            
+                    
+                    函数去抖、节流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.5" data-path="../javascript/jslian-shi-diao-yong.html">
+            
+                <a href="../javascript/jslian-shi-diao-yong.html">
+            
+                    
+                    Js链式调用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.6" data-path="../javascript/new.html">
+            
+                <a href="../javascript/new.html">
+            
+                    
+                    new
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.7" data-path="../javascript/ge-zhong-xun-huan-3001-bian-li-3001-map-foreach-reduce-filter.html">
+            
+                <a href="../javascript/ge-zhong-xun-huan-3001-bian-li-3001-map-foreach-reduce-filter.html">
+            
+                    
+                    各种循环、遍历、Map、foreach，reduce、filter...
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.8" data-path="../javascript/bi-bao.html">
+            
+                <a href="../javascript/bi-bao.html">
+            
+                    
+                    闭包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.9" data-path="../javascript/bian-liang-ti-sheng.html">
+            
+                <a href="../javascript/bian-liang-ti-sheng.html">
+            
+                    
+                    变量提升
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.10" data-path="../javascript/call-apply-bind.html">
+            
+                <a href="../javascript/call-apply-bind.html">
+            
+                    
+                    Call 、Apply、 bind
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../es6+.html">
+            
+                <a href="../es6+.html">
+            
+                    
+                    ES6+
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.8.1" data-path="../es6+/sheng-yu-can-shu.html">
+            
+                <a href="../es6+/sheng-yu-can-shu.html">
+            
+                    
+                    剩余参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8.2" data-path="../es6+/mo-ren-can-shu.html">
+            
+                <a href="../es6+/mo-ren-can-shu.html">
+            
+                    
+                    默认参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8.3" data-path="../es6+/promise.html">
+            
+                <a href="../es6+/promise.html">
+            
+                    
+                    promise
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8.4" data-path="../es6+/generatorasync.html">
+            
+                <a href="../es6+/generatorasync.html">
+            
+                    
+                    Generator、async
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8.5" data-path="../es6+/mo-ban-zi-fu-chuan.html">
+            
+                <a href="../es6+/mo-ban-zi-fu-chuan.html">
+            
+                    
+                    模板字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" >
+            
+                <span>
+            
+                    
+                    工具、框架
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.9.1" data-path="../shuang-xiang-bang-ding-yuan-li.html">
+            
+                <a href="../shuang-xiang-bang-ding-yuan-li.html">
+            
+                    
+                    vue、react、ag
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9.2" data-path="../react.html">
+            
+                <a href="../react.html">
+            
+                    
+                    react
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.9.2.1" data-path="../react/setstate.html">
+            
+                <a href="../react/setstate.html">
+            
+                    
+                    setstate
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9.3" data-path="../webpack.html">
+            
+                <a href="../webpack.html">
+            
+                    
+                    webpack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9.4" data-path="../gulp.html">
+            
+                <a href="../gulp.html">
+            
+                    
+                    gulp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9.5" data-path="../babel.html">
+            
+                <a href="../babel.html">
+            
+                    
+                    babel
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" >
+            
+                <span>
+            
+                    
+                    网络基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.10.1" data-path="../kua-yu.html">
+            
+                <a href="../kua-yu.html">
+            
+                    
+                    跨域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10.2" data-path="../getpost.html">
+            
+                <a href="../getpost.html">
+            
+                    
+                    get/post
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10.3" data-path="../xmlhttprequest-abort.html">
+            
+                <a href="../xmlhttprequest-abort.html">
+            
+                    
+                    xmlHttpRequest abort
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10.4" data-path="../200304ff0c-huan-cun.html">
+            
+                <a href="../200304ff0c-huan-cun.html">
+            
+                    
+                    200,304，缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10.5" data-path="../xsscsrf.html">
+            
+                <a href="../xsscsrf.html">
+            
+                    
+                    xss/csrf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10.6" data-path="../yu-ming-fa-san-yu-yu-ming-shou-lian.html">
+            
+                <a href="../yu-ming-fa-san-yu-yu-ming-shou-lian.html">
+            
+                    
+                    域名发散与域名收敛
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../huan-cun.html">
+            
+                <a href="../huan-cun.html">
+            
+                    
+                    缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" >
+            
+                <span>
+            
+                    
+                    优化
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.12.1" data-path="../wang-luo-lei-xing.html">
+            
+                <a href="../wang-luo-lei-xing.html">
+            
+                    
+                    网络请求类
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="../za-tan.html">
+            
+                <a href="../za-tan.html">
+            
+                    
+                    杂谈
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.13.1" data-path="../eventdui-xiang-zhong-target-he-currenttarget-shu-xing-de-qu-bie.html">
+            
+                <a href="../eventdui-xiang-zhong-target-he-currenttarget-shu-xing-de-qu-bie.html">
+            
+                    
+                    event对象中 target和currentTarget 属性的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13.2" data-path="../tu-pian-lei-xing.html">
+            
+                <a href="../tu-pian-lei-xing.html">
+            
+                    
+                    图片类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13.3" data-path="../eventloop.html">
+            
+                <a href="../eventloop.html">
+            
+                    
+                    eventloop
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="../nei-cun-xie-lou.html">
+            
+                <a href="../nei-cun-xie-lou.html">
+            
+                    
+                    内存泄漏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" >
+            
+                <span>
+            
+                    
+                    冷门
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.15.1" data-path="../scrollintoview-biao-qian-yuan-su-gun-dao-ke-shi-qu-yu.html">
+            
+                <a href="../scrollintoview-biao-qian-yuan-su-gun-dao-ke-shi-qu-yu.html">
+            
+                    
+                    scrollIntoView 标签元素滚到可视区域
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.16" data-path="../duo-tai.html">
+            
+                <a href="../duo-tai.html">
+            
+                    
+                    多态
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../wen-zhang.html">
+            
+                <a href="../wen-zhang.html">
+            
+                    
+                    文章
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.html">
+            
+                <a href="webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.html">
+            
+                    
+                    webpack4.0初体验、各版本及parcel性能对比
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="canvastu-pian-he-cheng.html">
+            
+                <a href="canvastu-pian-he-cheng.html">
+            
+                    
+                    canvas图片合成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../twitterfacebookpinterestdeng-guo-wai-ping-tai-shou-quan-deng-lu.html">
+            
+                <a href="../twitterfacebookpinterestdeng-guo-wai-ping-tai-shou-quan-deng-lu.html">
+            
+                    
+                    Twitter，facebook，Pinterest等国外平台授权登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../vscodezhi-chi-es2016-es2017-yu-fa.html">
+            
+                <a href="../vscodezhi-chi-es2016-es2017-yu-fa.html">
+            
+                    
+                    vscode支持es2016 es2017语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../windowspei-zhi-nginx-zhi-chi-https.html">
+            
+                <a href="../windowspei-zhi-nginx-zhi-chi-https.html">
+            
+                    
+                    windows配置Nginx支持https
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../zeroclipboardwang-ye-gun-dong-shi-xiao-jie-jue-fang-fa.html">
+            
+                <a href="../zeroclipboardwang-ye-gun-dong-shi-xiao-jie-jue-fang-fa.html">
+            
+                    
+                    zeroclipboard网页滚动失效解决方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../shou-quan-dan-chuang-zi-dong-guan-bi-fu-ye-mian-shua-xin-si-lu.html">
+            
+                <a href="../shou-quan-dan-chuang-zi-dong-guan-bi-fu-ye-mian-shua-xin-si-lu.html">
+            
+                    
+                    授权弹窗自动关闭父页面刷新思路
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../wang-ye-tong-guo-php-lian-jie-shu-ju-ku-cha-xun-shu-ju.html">
+            
+                <a href="../wang-ye-tong-guo-php-lian-jie-shu-ju-ku-cha-xun-shu-ju.html">
+            
+                    
+                    网页通过php链接数据库查询数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="vuejs-vue-router-historymo-shi-lu-you-ff0c-yu-ming-er-ji-mu-lu-zi-mu-lu-nginx-pei-zhi.html">
+            
+                <a href="vuejs-vue-router-historymo-shi-lu-you-ff0c-yu-ming-er-ji-mu-lu-zi-mu-lu-nginx-pei-zhi.html">
+            
+                    
+                    vue.js vue-router history模式路由，域名二级目录子目录nginx配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="vuejstuo-la-pai-xu-cha-jian-vuedraggable-ff0c-wu-fa-jian-rong-wei-xin-qq-teng-xun-xi-liu-lan-qi-jie-jue-ban-fa.html">
+            
+                <a href="vuejstuo-la-pai-xu-cha-jian-vuedraggable-ff0c-wu-fa-jian-rong-wei-xin-qq-teng-xun-xi-liu-lan-qi-jie-jue-ban-fa.html">
+            
+                    
+                    vue.js拖拉排序插件vuedraggable，无法兼容微信QQ腾讯系浏览器解决办法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="qian-duan-wang-ye-yi-dong-duan-h5-qian-ming-canvas-yuan-sheng-shi-xian-ff0c-yi-dong-duan-qian-ming-shi-jian-ff0c-shi-yong-yu-vue-js-react-deng-ren-he-kuang-jia.html">
+            
+                <a href="qian-duan-wang-ye-yi-dong-duan-h5-qian-ming-canvas-yuan-sheng-shi-xian-ff0c-yi-dong-duan-qian-ming-shi-jian-ff0c-shi-yong-yu-vue-js-react-deng-ren-he-kuang-jia.html">
+            
+                    
+                    前端网页移动端H5签名canvas原生实现，移动端签名实践，适用于vue.js react 等任何框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="yi-dong-duan-touch-shi-jian-ff0c-dian-ji-3001-hua-dong-3001-chang-an-shi-jian-ji-shi-pei-vue.html">
+            
+                <a href="yi-dong-duan-touch-shi-jian-ff0c-dian-ji-3001-hua-dong-3001-chang-an-shi-jian-ji-shi-pei-vue.html">
+            
+                    
+                    移动端touch事件，点击、滑动、长按事件  及适配vue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="inputshu-ru-kuang-value-kong-zhi-xiang-guan.html">
+            
+                <a href="inputshu-ru-kuang-value-kong-zhi-xiang-guan.html">
+            
+                    
+                    input输入框value控制相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.14" data-path="ji-yu-qiankun-de-wei-qian-duan-shi-jian-ff0c-ti-gong-geng-wei-jian-dan-3001-wan-zheng-de-xiang-mu.html">
+            
+                <a href="ji-yu-qiankun-de-wei-qian-duan-shi-jian-ff0c-ti-gong-geng-wei-jian-dan-3001-wan-zheng-de-xiang-mu.html">
+            
+                    
+                    基于qiankun的微前端实践，提供更为简单、完整的项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../chuang-zuo.html">
+            
+                <a href="../chuang-zuo.html">
+            
+                    
+                    创作
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.html">
+            
+                <a href="../chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.html">
+            
+                    
+                    vue.js element-ui组件改iview 第一期 tree树形控件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../chuang-zuo/vuejs-element-uizu-jian-gai-iview-di-er-qi-table-biao-dan.html">
+            
+                <a href="../chuang-zuo/vuejs-element-uizu-jian-gai-iview-di-er-qi-table-biao-dan.html">
+            
+                    
+                    vue.js element-ui组件改iview  第二期  table表单
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    杂谈&&日常踩坑记录
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../gitwen-jian-ming-da-xiao-xie-xiu-gai-mo-ren-bu-jian-ce.html">
+            
+                <a href="../gitwen-jian-ming-da-xiao-xie-xiu-gai-mo-ren-bu-jian-ce.html">
+            
+                    
+                    git文件名大小写变化检测
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../input-placeholderzhong-yin-yong-zi-ti-tu-biao-ru-iconfont.html">
+            
+                <a href="../input-placeholderzhong-yin-yong-zi-ti-tu-biao-ru-iconfont.html">
+            
+                    
+                    input placeholder中引用字体图标 如iconfont
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../wu-ti.html">
+            
+                <a href="../wu-ti.html">
+            
+                    
+                    前端缓存经验汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../gui-fan.html">
+            
+                <a href="../gui-fan.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../iframe-ios-jian-rong-bug.html">
+            
+                <a href="../iframe-ios-jian-rong-bug.html">
+            
+                    
+                    iframe ios 兼容 bug
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../iviewding-zhi-zhu-ti-wu-fa-jie-xi-less.html">
+            
+                <a href="../iviewding-zhi-zhu-ti-wu-fa-jie-xi-less.html">
+            
+                    
+                    iview定制主题无法解析less
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../wei-xin-fen-xiang-ios-jian-rong-xing.html">
+            
+                <a href="../wei-xin-fen-xiang-ios-jian-rong-xing.html">
+            
+                    
+                    微信分享ios兼容性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="../es6-importyu-fa-xiang-guan.html">
+            
+                <a href="../es6-importyu-fa-xiang-guan.html">
+            
+                    
+                    es6 import语法相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    不相干的东西
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../12306mai-piao-xuan-ze-shang-xia-pu.html">
+            
+                <a href="../12306mai-piao-xuan-ze-shang-xia-pu.html">
+            
+                    
+                    12306买票选择上下铺
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >基于qiankun的微前端实践，提供更为简单、完整的项目</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5FAE;&#x524D;&#x7AEF;&#x5B9E;&#x8DF5;">&#x5FAE;&#x524D;&#x7AEF;&#x5B9E;&#x8DF5;</h1>
+<p>&#x57FA;&#x4E8E;qiankun(<a href="https://github.com/umijs/qiankun" target="_blank">https://github.com/umijs/qiankun</a>)</p>
+<p>&#x4E3B;&#x8981;&#x7EC6;&#x5316;qiankun example&#xFF0C;&#x5E0C;&#x671B;&#x6211;&#x8E29;&#x8FC7;&#x7684;&#x5751;&#x5927;&#x5BB6;&#x80FD;&#x8DF3;&#x8FC7;&#x53BB;&#xFF0C;&#x8282;&#x7701;&#x65F6;&#x95F4;~</p>
+<p><em><strong>&#x6839;&#x636E;qiankun&#x66F4;&#x65B0;&#x8FDB;&#x5EA6;&#x4E0D;&#x5B9A;&#x65F6;&#x4FEE;&#x6539;&#x5B8C;&#x5584;</strong></em></p>
+<p>&#x6709;&#x5E2E;&#x52A9;&#x7684;&#x8BDD;&#x522B;&#x5FD8;&#x4E86;start(<a href="https://github.com/CHU295/Micro-Frontends-practice" target="_blank">https://github.com/CHU295/Micro-Frontends-practice</a>)</p>
+<h1 id="&#x76EE;&#x5F55;&#x4ECB;&#x7ECD;">&#x76EE;&#x5F55;&#x4ECB;&#x7ECD;</h1>
+<p>&#x9879;&#x76EE;&#x76EE;&#x524D;&#x7F16;&#x5199;&#x4E86;vue&#x3001;react&#x4E24;&#x79CD;&#x5B9E;&#x73B0;&#x65B9;&#x5F0F;</p>
+<p>&#x6839;&#x9879;&#x76EE;:main_react/main_vue</p>
+<p>&#x5B50;&#x9879;&#x76EE;:react_/react_eject/vue</p>
+<p>&#x4E94;&#x4E2A;&#x9879;&#x76EE;&#x72EC;&#x7ACB;&#x5B58;&#x5728;</p>
+<p>&#x8BF7;&#x5148;&#x8FD0;&#x884C;&#x5B50;&#x9879;&#x76EE;&#xFF0C;&#x518D;&#x8FD0;&#x884C;&#x7236;&#x9879;&#x76EE;</p>
+<ul>
+<li><h2 id="&#x4E00;&#x3001;mainreact">&#x4E00;&#x3001;main_react</h2>
+</li>
+</ul>
+<blockquote>
+<p>&#x6839;&#x9879;&#x76EE; create-react-app&#x7248;&#x672C;</p>
+</blockquote>
+<ol>
+<li>&#x5B89;&#x88C5;qiankun&#xFF0C;
+<code>yarn add qiankun # or npm i qiankun -S</code></li>
+</ol>
+<blockquote>
+<p>&#x53EF;&#x9009;isomorphic-fetch</p>
+</blockquote>
+<ol>
+<li><p>&#x4FEE;&#x6539;src/App.js&#x521B;&#x5EFA;qiankun&#x4E3B;&#x6846;&#x67B6;</p>
+</li>
+<li><h2 id="&#x4E8C;&#x3001;mainvue">&#x4E8C;&#x3001;main_vue</h2>
+</li>
+</ol>
+<blockquote>
+<p>&#x6839;&#x9879;&#x76EE; vue-cli&#x642D;&#x5EFA;&#x7248;&#x672C;</p>
+</blockquote>
+<ol>
+<li>&#x5B89;&#x88C5;qiankun&#xFF0C;
+<code>yarn add qiankun # or npm i qiankun -S</code></li>
+</ol>
+<blockquote>
+<p>&#x53EF;&#x9009;isomorphic-fetch</p>
+</blockquote>
+<ol>
+<li><p>&#x4FEE;&#x6539;src/main.js&#x521B;&#x5EFA;qiankun&#x4E3B;&#x6846;&#x67B6;</p>
+</li>
+<li><h2 id="&#x4E09;&#x3001;react">&#x4E09;&#x3001;react_</h2>
+</li>
+</ol>
+<p><strong>&#x5B50;&#x9879;&#x76EE; create-react-app&#x7248;&#x672C;</strong></p>
+<blockquote>
+<p>&#x91C7;&#x7528;react-app-rewired&#x4FEE;&#x6539;webpack&#x76F8;&#x5173;&#x914D;&#x7F6E;</p>
+</blockquote>
+<ol>
+<li>&#x5B89;&#x88C5;react-app-rewired</li>
+</ol>
+<p><code>npm install react-app-rewired --save-dev</code></p>
+<ol>
+<li>&#x4FEE;&#x6539;package.josn&#x6587;&#x4EF6;scripts&#x547D;&#x4EE4;&#xFF0C;&#x66FF;&#x6362;react-scripts&#x4E3A;react-app-rewired</li>
+</ol>
+<pre><code>&quot;scripts&quot;
+: {
+
+&quot;start&quot;
+: 
+&quot;react-app-rewired start&quot;
+,
+
+&quot;build&quot;
+: 
+&quot;react-app-rewired build&quot;
+,
+
+&quot;test&quot;
+: 
+&quot;react-app-rewired test&quot;
+,
+
+&quot;eject&quot;
+: 
+&quot;react-scripts eject&quot;
+
+},
+</code></pre><ol>
+<li>&#x6DFB;&#x52A0; config-overrides.js &#x6587;&#x4EF6;&#x5230;&#x6839;&#x76EE;&#x5F55;</li>
+</ol>
+<blockquote>
+<p>&#x53EF;&#x6DFB;&#x52A0;.env&#x914D;&#x7F6E;&#x7AEF;&#x53E3;&#x7B49;&#x7B49;</p>
+</blockquote>
+<ol>
+<li><p>&#x4FEE;&#x6539;src/index.js&#x5BFC;&#x5165;&#x751F;&#x547D;&#x5468;&#x671F;</p>
+</li>
+<li><h2 id="&#x56DB;&#x3001;reacteject">&#x56DB;&#x3001;react_eject</h2>
+</li>
+</ol>
+<p><strong>&#x5B50;&#x9879;&#x76EE; create-react-app&#x7248;&#x672C;</strong></p>
+<blockquote>
+<p>&#x4E0E;&#x4E0A;&#x4E00;&#x4E2A;&#x4E0D;&#x540C;&#xFF0C;&#x672C;&#x9879;&#x76EE;&#x4F7F;&#x7528;eject&#x547D;&#x4EE4;&#x5C55;&#x5F00;&#x4E86;&#x9ED8;&#x8BA4;&#x914D;&#x7F6E;</p>
+</blockquote>
+<ol>
+<li>&#x4FEE;&#x6539;src/index.js&#x5BFC;&#x5165;&#x751F;&#x547D;&#x5468;&#x671F;</li>
+<li><p>&#x4FEE;&#x6539;config/webpack.config.js&#xFF0C;output&#x65B0;&#x589E;&#x53C2;&#x6570;&#x3002;&#x6CE8;&#x610F;&#x53C2;&#x6570;&#x5199;&#x6CD5;</p>
+<p> library: <code>${appPackageJson.name}
+ -[name]</code>,
+ libraryTarget: 
+ &apos;umd&apos;
+ ,
+ jsonpFunction: <code>webpackJsonp_
+ ${appPackageJson.name}</code>,</p>
+</li>
+</ol>
+<ol>
+<li>&#x6309;&#x9700;&#x4FEE;&#x6539;config/webpackDevServer.config.js&#xFF0C;&#x4E00;&#x822C;&#x53EA;&#x9700;&#x6DFB;&#x52A0;header&#x5141;&#x8BB8;&#x8DE8;&#x57DF;&#x7B49;&#x7B49;</li>
+</ol>
+<pre><code>headers: {
+
+&apos;Access-Control-Allow-Origin&apos;
+: 
+&apos;*&apos;
+,
+    },
+</code></pre><ul>
+<li><h2 id="&#x4E94;&#x3001;vue">&#x4E94;&#x3001;vue</h2>
+</li>
+</ul>
+<p><strong>&#x5B50;&#x9879;&#x76EE; vue-cli&#x642D;&#x5EFA;&#x7248;&#x672C;</strong></p>
+<ol>
+<li>vue-cli&#x751F;&#x6210;&#x540E;&#x6839;&#x76EE;&#x5F55;&#x6DFB;&#x52A0;vue.config.js&#x6587;&#x4EF6;</li>
+<li>&#x4FEE;&#x6539;src/main.js&#x5BFC;&#x5165;&#x751F;&#x547D;&#x5468;&#x671F;</li>
+</ol>
+<h1 id="&#x7279;&#x6B8A;&#x8BF4;&#x660E;">&#x7279;&#x6B8A;&#x8BF4;&#x660E;</h1>
+<ol>
+<li>&#x6CE8;&#x610F;&#x6302;&#x8F7D;&#x7684;&#x8282;&#x70B9;id&#xFF0C;&#x5B50;&#x7236;&#x4E0D;&#x5F97;&#x540C;&#x540D;&#x3002; &#x4F8B;&#xFF1A;&#x5B50;&#x7236;&#x7686;&#x4E3A;react&#x9879;&#x76EE;&#xFF0C;&#x540C;&#x65F6;&#x6302;&#x5728;&#x5230;#root</li>
+</ol>
+<hr>
+<h2 id="&#x96F7;&#x70B9;">&#x96F7;&#x70B9;</h2>
+<ol>
+<li>&#x8FD0;&#x884C;&#x8FC7;&#x7A0B;&#x4E2D;&#x4FEE;&#x6539;create-react-app&#x5B50;&#x9879;&#x76EE;&#xFF0C;&#x5F3A;&#x5237;&#x6839;&#x9879;&#x76EE;&#x53EF;&#x80FD;&#x4F1A;&#x62A5;&#x9519;&#x7F3A;&#x5C11;&#x751F;&#x547D;&#x5468;&#x671F;&#xFF0C;&#x91CD;&#x542F;&#x5B50;&#x9879;&#x76EE;&#x5373;&#x53EF;</li>
+<li>&#x5728;create-react-app&#x9879;&#x76EE;&#x4E2D;&#x8DEF;&#x52B2;&#x91CD;&#x5199;&#x6682;&#x65F6;&#x5931;&#x6548;</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="inputshu-ru-kuang-value-kong-zhi-xiang-guan.html" class="navigation navigation-prev " aria-label="Previous page: input输入框value控制相关">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../chuang-zuo.html" class="navigation navigation-next " aria-label="Next page: 创作">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"基于qiankun的微前端实践，提供更为简单、完整的项目","level":"1.3.14","depth":2,"next":{"title":"创作","level":"1.4","depth":1,"path":"chuang-zuo.md","ref":"chuang-zuo.md","articles":[{"title":"vue.js element-ui组件改iview 第一期 tree树形控件","level":"1.4.1","depth":2,"path":"chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md","ref":"chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md","articles":[]},{"title":"vue.js element-ui组件改iview  第二期  table表单","level":"1.4.2","depth":2,"path":"chuang-zuo/vuejs-element-uizu-jian-gai-iview-di-er-qi-table-biao-dan.md","ref":"chuang-zuo/vuejs-element-uizu-jian-gai-iview-di-er-qi-table-biao-dan.md","articles":[]}]},"previous":{"title":"input输入框value控制相关","level":"1.3.13","depth":2,"path":"wen-zhang/inputshu-ru-kuang-value-kong-zhi-xiang-guan.md","ref":"wen-zhang/inputshu-ru-kuang-value-kong-zhi-xiang-guan.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"wen-zhang/ji-yu-qiankun-de-wei-qian-duan-shi-jian-ff0c-ti-gong-geng-wei-jian-dan-3001-wan-zheng-de-xiang-mu.md","mtime":"2019-11-26T02:44:30.277Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-26T02:38:58.982Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
