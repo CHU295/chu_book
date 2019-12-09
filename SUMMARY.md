@@ -51,14 +51,12 @@
   * [缓存](huan-cun.md)
   * 优化
     * [网络请求类](wang-luo-lei-xing.md)
-  * [杂谈](za-tan.md)
-    * [event对象中 target和currentTarget 属性的区别](eventdui-xiang-zhong-target-he-currenttarget-shu-xing-de-qu-bie.md)
-    * [图片类型](tu-pian-lei-xing.md)
-    * [eventloop](eventloop.md)
   * [内存泄漏](nei-cun-xie-lou.md)
-  * 冷门
-    * [scrollIntoView 标签元素滚到可视区域](scrollintoview-biao-qian-yuan-su-gun-dao-ke-shi-qu-yu.md)
   * [多态](duo-tai.md)
+  * [event对象中 target和currentTarget 属性的区别](eventdui-xiang-zhong-target-he-currenttarget-shu-xing-de-qu-bie.md)
+  * [图片类型](tu-pian-lei-xing.md)
+  * [scrollIntoView 标签元素滚到可视区域](scrollintoview-biao-qian-yuan-su-gun-dao-ke-shi-qu-yu.md)
+  * [eventloop](eventloop.md)
 * [文章](wen-zhang.md)
   * [webpack4.0初体验、各版本及parcel性能对比](wen-zhang/webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.md)
   * [canvas图片合成](wen-zhang/canvastu-pian-he-cheng.md)
