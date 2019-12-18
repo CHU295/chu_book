@@ -86,6 +86,8 @@
     * [微信分享动态配置](wei-xin-fen-xiang-ios-jian-rong-xing/wei-xin-fen-xiang-dong-tai-pei-zhi.md)
     * [ios兼容](wei-xin-fen-xiang-ios-jian-rong-xing/iosjian-rong.md)
   * [es6 import语法相关](es6-importyu-fa-xiang-guan.md)
+  * 小程序
+    * [真机调试编译报错问题 unexpected character \` \`](zhen-ji-diao-shi-bian-yi-bao-cuo-wen-ti-unexpected-character.md)
 * 不相干的东西
   * [12306买票选择上下铺](12306mai-piao-xuan-ze-shang-xia-pu.md)
 
