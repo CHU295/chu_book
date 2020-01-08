@@ -89,6 +89,7 @@
   * [小程序](xiao-cheng-xu.md)
     * [真机调试编译报错问题 unexpected character \` \`](zhen-ji-diao-shi-bian-yi-bao-cuo-wen-ti-unexpected-character.md)
   * [IOS input 阴影问题](ios-input-yin-ying-wen-ti.md)
+  * [location.href是异步的](locationhrefshi-yi-bu-de.md)
 * 不相干的东西
   * [12306买票选择上下铺](12306mai-piao-xuan-ze-shang-xia-pu.md)
 
