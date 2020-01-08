@@ -12,3 +12,5 @@
 
 以上代码，在跳转到百度之前会执行下面的console输出123
 
+如果需要立即跳转不执行后续方法，可以在location.href后面加上return false
+
